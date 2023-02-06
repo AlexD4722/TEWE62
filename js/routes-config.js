@@ -257,27 +257,27 @@ app.controller('AllReview', function($scope) {
     
     $scope.listReview = [
         {content: " Consequat id porta nibh venenatis cras sed felis. Enim lobortis scelerisque fermentum dui faucibus in ornare. Diam quam nulla porttitor massa id neque. Sem integer vitae justo eget magna. Ac turpis egestas integer eget aliquet nibh praesent tristique. Netus et fames ac turpis egestas. ",
-        imgCustomer: "/images/Allreview/customer1.jpg",
+        imgCustomer: "images/Allreview/customer1.jpg",
         nameCustomer: 'John Beef'
     },
     {content: " Faucibus ornare suspendisse sed nisi lacus sed viverra. Sed arcu non odio euismod. Auctor urna nunc id cursus metus aliquam eleifend mi. Elit sed vulputate mi sit amet mauris commodo quis. Accumsan lacus vel facilisis volutpat est velit egestas. Nisi quis eleifend purus lacinia morbi. ",
-        imgCustomer: "/images/Allreview/customer2.jpg",
+        imgCustomer: "images/Allreview/customer2.jpg",
         nameCustomer: 'Rhiana Giveday'
     },
     {content: " Viverra maecenas accumsan lacus vel. Mus mauris vitae ultricies leo integer malesuada nunc vel. Ipsum dolor sit amet consectetur. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Consequat mauris nunc congue nisi vitae suscipit tellus. Nunc metus aliquam eleifend. ",
-        imgCustomer: "/images/Allreview/customer3.jpg",
+        imgCustomer: "images/Allreview/customer3.jpg",
         nameCustomer: 'Patric Stone'
     },
     {content: " Ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Vitae sapien pellentesque habitant morbi tristique senectus et netus. Luctus accumsan tortor posuere ac ut consequat. Volutpat facilisi etiam dignissim enim lobortis blandit aliquam etiam erat. ",
-        imgCustomer: "/images/Allreview/custom4.jpg",
+        imgCustomer: "images/Allreview/custom4.jpg",
         nameCustomer: 'Daniel Turner'
     },
     {content: " Nullam eget felis eget nunc lobortis mattis. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor. Lectus mauris ultrices eros in cursus turpis. Sit amet tincidunt ornare massa eget consectetur adipiscing elit.",
-        imgCustomer: "/images/Allreview/custom5.jpg",
+        imgCustomer: "images/Allreview/custom5.jpg",
         nameCustomer: 'Alex Solomon'	
     },
     {content: " Lacus sed viverra tellus in hac habitasse. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Tellus integer feugiat scelerisque varius. Egestas purus viverra accumsan in nisl aliquet porttitor lacus. ",
-        imgCustomer: "/images/Allreview/custom6.jpg",
+        imgCustomer: "images/Allreview/custom6.jpg",
         nameCustomer: 'Jozefo Naylor'
     }
     ]
@@ -295,9 +295,9 @@ app.controller('crtlPromotion', function($scope){
         this.dueTime = dueTime
     } 
     $scope.listPromotion = [
-        new promotion('/images/promotion/promotion1.png', ' BUY 1 GET 1 THIRD & FOUR PIZZA', '#SA1283821', '18-01-2023'),
-        new promotion('/images/promotion/promotion3.png', ' BUY 1 GET 1 THIRD & FOUR PIZZA', '#SA1283821', '18-01-2023'),
-        new promotion('/images/promotion/promotion2.png', 'BUY 1 GET 1 THIRD & FOUR PIZZA', '#SA1283821', '18-01-2023'),
+        new promotion('images/promotion/promotion1.png', ' BUY 1 GET 1 THIRD & FOUR PIZZA', '#SA1283821', '18-01-2023'),
+        new promotion('images/promotion/promotion3.png', ' BUY 1 GET 1 THIRD & FOUR PIZZA', '#SA1283821', '18-01-2023'),
+        new promotion('images/promotion/promotion2.png', 'BUY 1 GET 1 THIRD & FOUR PIZZA', '#SA1283821', '18-01-2023'),
     ];
 });
 
