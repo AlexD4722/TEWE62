@@ -4,11 +4,11 @@ body{
 
 @font-face {
   font-family: Knewave;
-  src:url('fonts/Knewave-Regular.ttf');
+  src:url('../fonts/Knewave-Regular.ttf');
 }
 @font-face {
   font-family: Satisfy;
-  src:url('fonts/Satisfy-Regular.ttf');
+  src:url('../fonts/Satisfy-Regular.ttf');
 }
 .container{
   width: 80%;
